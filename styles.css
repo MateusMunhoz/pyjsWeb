@@ -1,0 +1,109 @@
+/*
+--text: rgb(230, 229, 236);
+--background: rgb(17, 15, 24);
+--primary: rgb(169, 162, 204);
+--secondary: rgb(60, 50, 108);
+--accent: rgb(100, 82, 187);
+    
+*/
+
+.fundoSite{
+    background-color: rgb(11, 9, 2);
+}
+
+
+
+.divMenu{
+    margin: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: left;
+    font-family:  "JetBrains Mono";
+    background-color: rgba(11, 9, 2, 0.8);
+    color: rgb(246, 242, 215);
+    padding: 10px;
+    font-size: large;
+    border-radius: 7px;
+    align-items: center;
+}
+
+.logoHome{
+    
+    max-width: 20px;
+
+    color: rgb(246, 242, 215);
+
+    background-color:rgb(11, 9, 2);
+    
+    margin: 0;
+    padding: 0;
+
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-right: 6px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+
+    border-color: rgb(209, 209, 209);
+    border-style: solid;
+    border-radius: 7px;
+}
+
+.logoAbout{
+    
+    max-width: 20px;
+
+    color: rgb(228, 221, 131);
+
+    background-color:rgb(30, 139, 38);
+    
+    margin: 0;
+    padding: 0;
+
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-right: 6px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+
+    border-color: rgb(209, 209, 209);
+    border-style: solid;
+    border-radius: 7px;
+}
+
+.navMenu{
+    list-style-type: none;
+    margin: 0;
+    font-family:  "JetBrains Mono" ;
+    display: flex;
+    align-items: center;
+   
+    
+    
+    
+}
+.navMenuOp{
+    float: left;
+    display: block;
+    font-family:  "JetBrains Mono";
+
+    margin-right: 15px;
+
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: rgb(254, 74, 73);
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    
+    display: flex;
+    
+}
